@@ -1,1 +1,5 @@
-  <p>HelloWorld!</p>
+  <div class="contents row">
+   <% @tweet.each do |tweet| %>
+   <p><%= tweet.text %></p>
+   <% end %>
+ </div>
